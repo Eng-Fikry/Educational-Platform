@@ -1,0 +1,21 @@
+F:\Educational platform\Presistance\bin\Debug\net8.0\Presistance.deps.json
+F:\Educational platform\Presistance\bin\Debug\net8.0\Presistance.dll
+F:\Educational platform\Presistance\bin\Debug\net8.0\Presistance.pdb
+F:\Educational platform\Presistance\bin\Debug\net8.0\Domain.dll
+F:\Educational platform\Presistance\bin\Debug\net8.0\Service Abstraction.dll
+F:\Educational platform\Presistance\bin\Debug\net8.0\Service.dll
+F:\Educational platform\Presistance\bin\Debug\net8.0\Shared.dll
+F:\Educational platform\Presistance\bin\Debug\net8.0\Service.pdb
+F:\Educational platform\Presistance\bin\Debug\net8.0\Domain.pdb
+F:\Educational platform\Presistance\bin\Debug\net8.0\Service Abstraction.pdb
+F:\Educational platform\Presistance\bin\Debug\net8.0\Shared.pdb
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.csproj.AssemblyReference.cache
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.GeneratedMSBuildEditorConfig.editorconfig
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.AssemblyInfoInputs.cache
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.AssemblyInfo.cs
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.csproj.CoreCompileInputs.cache
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presista.06047F9F.Up2Date
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.dll
+F:\Educational platform\Presistance\obj\Debug\net8.0\refint\Presistance.dll
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.pdb
+F:\Educational platform\Presistance\obj\Debug\net8.0\ref\Presistance.dll

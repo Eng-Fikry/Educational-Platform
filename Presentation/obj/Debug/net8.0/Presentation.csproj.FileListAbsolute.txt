@@ -1,0 +1,17 @@
+F:\Educational platform\Presentation\bin\Debug\net8.0\Presentation.deps.json
+F:\Educational platform\Presentation\bin\Debug\net8.0\Presentation.dll
+F:\Educational platform\Presentation\bin\Debug\net8.0\Presentation.pdb
+F:\Educational platform\Presentation\bin\Debug\net8.0\Service Abstraction.dll
+F:\Educational platform\Presentation\bin\Debug\net8.0\Shared.dll
+F:\Educational platform\Presentation\bin\Debug\net8.0\Service Abstraction.pdb
+F:\Educational platform\Presentation\bin\Debug\net8.0\Shared.pdb
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presenta.BC777DBE.Up2Date
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.dll
+F:\Educational platform\Presentation\obj\Debug\net8.0\refint\Presentation.dll
+F:\Educational platform\Presentation\obj\Debug\net8.0\Presentation.pdb
+F:\Educational platform\Presentation\obj\Debug\net8.0\ref\Presentation.dll

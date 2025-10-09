@@ -1,0 +1,11 @@
+F:\Educational platform\Shared\bin\Debug\net8.0\Shared.deps.json
+F:\Educational platform\Shared\bin\Debug\net8.0\Shared.dll
+F:\Educational platform\Shared\bin\Debug\net8.0\Shared.pdb
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.dll
+F:\Educational platform\Shared\obj\Debug\net8.0\refint\Shared.dll
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.pdb
+F:\Educational platform\Shared\obj\Debug\net8.0\ref\Shared.dll

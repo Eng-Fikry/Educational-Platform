@@ -1,0 +1,15 @@
+F:\Educational platform\Service Abstraction\bin\Debug\net8.0\Service Abstraction.deps.json
+F:\Educational platform\Service Abstraction\bin\Debug\net8.0\Service Abstraction.dll
+F:\Educational platform\Service Abstraction\bin\Debug\net8.0\Service Abstraction.pdb
+F:\Educational platform\Service Abstraction\bin\Debug\net8.0\Shared.dll
+F:\Educational platform\Service Abstraction\bin\Debug\net8.0\Shared.pdb
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.csproj.AssemblyReference.cache
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.AssemblyInfoInputs.cache
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.AssemblyInfo.cs
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.csproj.CoreCompileInputs.cache
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service .9D489B17.Up2Date
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.dll
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\refint\Service Abstraction.dll
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.pdb
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\ref\Service Abstraction.dll
