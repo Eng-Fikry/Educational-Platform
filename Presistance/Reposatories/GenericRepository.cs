@@ -20,9 +20,9 @@ namespace Presistance.Reposatories
 
         
 
-        public void RemoveAsync(TEntity entity) =>  _dbContext.Set<TEntity>().Remove(entity);
+        public void Remove(TEntity entity) =>  _dbContext.Set<TEntity>().Remove(entity);
 
-        public void UpdateAsync(TEntity entity) => _dbContext.Set<TEntity>().Update(entity);
+        public void Update(TEntity entity) => _dbContext.Set<TEntity>().Update(entity);
 
         public async Task<TEntity?> GetByIdAsync(ISpecification<TEntity, TKey> specification)
         {

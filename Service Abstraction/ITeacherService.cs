@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Shared.UserData;
+using Shared.DTOs.UserData;
 
 namespace Service_Abstraction
 {

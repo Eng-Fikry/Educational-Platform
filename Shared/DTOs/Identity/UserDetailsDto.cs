@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.UserData
+namespace Shared.DTOs.Identity
 {
-    public class TeacherDto
+    public record UserDetailsDto
     {
         public int Id { get; set; }
         public string UserName { get; set; } = default!;
+        public string LastName { get; set; } = default!;
         public string Email { get; set; } = default!;
+        public string Country { get; set; } = default!;
         public string PhoneNumber { get; set; } = default!;
-        //public string DisplayName { get; set; } = default!;
-        public DateTime JoinedDate { get; set; } 
-        public string Role { get; set; } = default!;
+        public string DisplayName { get; set; } = default!;
     }
 }

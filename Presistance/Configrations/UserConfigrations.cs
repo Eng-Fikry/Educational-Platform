@@ -54,7 +54,12 @@ namespace Presistance.Configrations
             builder.Property(s => s.JoinedDate)
                    .HasDefaultValueSql("GETDATE()");
 
+            builder.HasMany(C => C.Courses)
+                   .WithOne(T => T.Teacher)
+                   .HasForeignKey(C => C.TeacherId)
+                   .OnDelete(DeleteBehavior.Cascade);
 
+            
         }
     }
     public class StudentConfigrations : IEntityTypeConfiguration<Student>

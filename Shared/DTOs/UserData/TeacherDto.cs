@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.UserData
+namespace Shared.DTOs.UserData
 {
-    public class StudentDto
+    public record TeacherDto
     {
         public int Id { get; set; }
         public string UserName { get; set; } = default!;
         public string Email { get; set; } = default!;
         public string PhoneNumber { get; set; } = default!;
         //public string DisplayName { get; set; } = default!;
-        public DateTime JoinedDate { get; set; }
+        public DateTime JoinedDate { get; set; } 
         public string Role { get; set; } = default!;
     }
 }

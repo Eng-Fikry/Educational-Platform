@@ -17,3 +17,4 @@ F:\Educational platform\Service\obj\Debug\net8.0\Service.dll
 F:\Educational platform\Service\obj\Debug\net8.0\refint\Service.dll
 F:\Educational platform\Service\obj\Debug\net8.0\Service.pdb
 F:\Educational platform\Service\obj\Debug\net8.0\ref\Service.dll
+F:\Educational platform\Service\obj\Debug\net8.0\Service.sourcelink.json

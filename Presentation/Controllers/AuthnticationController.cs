@@ -8,8 +8,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service_Abstraction;
-using Shared.Identity;
-
+using Shared.DTOs.Identity;
 
 namespace Presentation.Controllers
 {

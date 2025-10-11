@@ -8,7 +8,7 @@ using Domain.Contracts;
 using Domain.Models.Identity;
 using Service.Specifications;
 using Service_Abstraction;
-using Shared.UserData;
+using Shared.DTOs.UserData;
 
 namespace Service
 {

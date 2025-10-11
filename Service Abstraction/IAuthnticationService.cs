@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Shared.Identity;
+using Shared.DTOs.Identity;
 
 namespace Service_Abstraction
 {

@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Identity
+namespace Shared.DTOs.Identity
 {
-    public class RegisterDto
+    public record RegisterDto
     {
         public required string FirstName { get; set; } = default!;
         public required string LastName { get; set; } = default!;

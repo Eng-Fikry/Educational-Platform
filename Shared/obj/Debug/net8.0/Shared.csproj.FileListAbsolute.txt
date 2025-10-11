@@ -9,3 +9,4 @@ F:\Educational platform\Shared\obj\Debug\net8.0\Shared.dll
 F:\Educational platform\Shared\obj\Debug\net8.0\refint\Shared.dll
 F:\Educational platform\Shared\obj\Debug\net8.0\Shared.pdb
 F:\Educational platform\Shared\obj\Debug\net8.0\ref\Shared.dll
+F:\Educational platform\Shared\obj\Debug\net8.0\Shared.sourcelink.json

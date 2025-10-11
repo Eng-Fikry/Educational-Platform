@@ -19,3 +19,4 @@ F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.dll
 F:\Educational platform\Presistance\obj\Debug\net8.0\refint\Presistance.dll
 F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.pdb
 F:\Educational platform\Presistance\obj\Debug\net8.0\ref\Presistance.dll
+F:\Educational platform\Presistance\obj\Debug\net8.0\Presistance.sourcelink.json

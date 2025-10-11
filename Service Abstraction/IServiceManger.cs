@@ -11,6 +11,7 @@ namespace Service_Abstraction
         public IAuthnticationService AuthnticationService { get; }
         public ITeacherService TeacherService { get; }
         public IStudentService StudentService { get; }
+        public ICourseService CourseService { get; }
 
     }
 }

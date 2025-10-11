@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Identity
+namespace Shared.DTOs.Identity
 {
-    public class UserDto
+    public record UserDto
     {
         public string Id { get; set; } = default!;
         public string DisplayName { get; set; } = default!;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Service_Abstraction;
-using Shared.UserData;
+using Shared.DTOs.UserData;
 
 namespace Presentation.Controllers
 {

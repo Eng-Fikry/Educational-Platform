@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shared.Identity
+namespace Shared.DTOs.Identity
 {
-    public class LoginDto
+    public record LoginDto
     {
         [EmailAddress]
         public string Email { get; set; } = default!;

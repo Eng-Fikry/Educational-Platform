@@ -13,3 +13,4 @@ F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction
 F:\Educational platform\Service Abstraction\obj\Debug\net8.0\refint\Service Abstraction.dll
 F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.pdb
 F:\Educational platform\Service Abstraction\obj\Debug\net8.0\ref\Service Abstraction.dll
+F:\Educational platform\Service Abstraction\obj\Debug\net8.0\Service Abstraction.sourcelink.json

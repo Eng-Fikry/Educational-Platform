@@ -191,3 +191,4 @@ F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.Extensio
 F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
 F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Educational platform\Educational platform\obj\Debug\net8.0\Educational platform.sourcelink.json

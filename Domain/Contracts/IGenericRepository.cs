@@ -14,7 +14,7 @@ namespace Domain.Contracts
 
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task AddAsync(TEntity entity);
-        void UpdateAsync(TEntity entity);
-        void RemoveAsync(TEntity entity);
+        void Update(TEntity entity);
+        void Remove(TEntity entity);
     }
 }

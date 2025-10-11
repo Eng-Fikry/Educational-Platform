@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Shared.Identity.UserDto",
+        "Type": "Shared.DTOs.Identity.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -55,13 +55,13 @@
     "Parameters": [
       {
         "Name": "login",
-        "Type": "Shared.Identity.LoginDto",
+        "Type": "Shared.DTOs.Identity.LoginDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.Identity.UserDto",
+        "Type": "Shared.DTOs.Identity.UserDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,13 +81,142 @@
     "Parameters": [
       {
         "Name": "register",
-        "Type": "Shared.Identity.RegisterDto",
+        "Type": "Shared.DTOs.Identity.RegisterDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.Identity.UserDto",
+        "Type": "Shared.DTOs.Identity.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CourseController",
+    "Method": "CreateCourse",
+    "RelativePath": "api/Course",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseDto",
+        "Type": "Shared.DTOs.Course.CourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.DTOs.Course.CourseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CourseController",
+    "Method": "GetAllCourses",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shared.DTOs.Course.CourseDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CourseController",
+    "Method": "DeleteCourse",
+    "RelativePath": "api/Course/{CourseId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.Message",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CourseController",
+    "Method": "GetCourse",
+    "RelativePath": "api/Course/{CourseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shared.DTOs.Course.CourseDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation.Controllers.CourseController",
+    "Method": "UpdateCourse",
+    "RelativePath": "api/Course/{CourseId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "courseDto",
+        "Type": "Shared.DTOs.Course.CourseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.DTOs.Course.CourseDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,7 +236,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Shared.UserData.StudentDto",
+        "Type": "Shared.DTOs.UserData.StudentDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -127,7 +256,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Shared.UserData.TeacherDto",
+        "Type": "Shared.DTOs.UserData.TeacherDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

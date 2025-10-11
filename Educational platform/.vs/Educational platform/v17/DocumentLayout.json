@@ -3,42 +3,20 @@
   "WorkspaceRootPath": "F:\\Educational platform\\Educational platform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5BC0953-3504-43DF-A335-6CD986DC88DE}|..\\Shared\\Shared.csproj|f:\\educational platform\\shared\\dtos\\course\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|f:\\educational platform\\educational platform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|f:\\educational platform\\educational platform\\customemiddelwares\\customeexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|solutionrelative:customemiddelwares\\customeexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92EBE9AD-93E1-4DE5-A422-ADC500764439}|..\\Domain\\Domain.csproj|f:\\educational platform\\domain\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\servicemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\teachercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\mapping\\studentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21AC06A7-8915-43BA-B855-DCAE60A28E7A}|..\\Service Abstraction\\Service Abstraction.csproj|f:\\educational platform\\service abstraction\\iservicemanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21AC06A7-8915-43BA-B855-DCAE60A28E7A}|..\\Service Abstraction\\Service Abstraction.csproj|f:\\educational platform\\service abstraction\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5BC0953-3504-43DF-A335-6CD986DC88DE}|..\\Shared\\Shared.csproj|f:\\educational platform\\shared\\userdata\\studentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21AC06A7-8915-43BA-B855-DCAE60A28E7A}|..\\Service Abstraction\\Service Abstraction.csproj|f:\\educational platform\\service abstraction\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,158 +34,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BadRequestException.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Domain\\Exceptions\\BadRequestException.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Exceptions\\BadRequestException.cs",
-              "ToolTip": "F:\\Educational platform\\Domain\\Exceptions\\BadRequestException.cs",
-              "RelativeToolTip": "..\\Domain\\Exceptions\\BadRequestException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T17:33:01.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomeExceptionHandler.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Educational platform\\CustomeMiddelwares\\CustomeExceptionHandler.cs",
-              "RelativeDocumentMoniker": "CustomeMiddelwares\\CustomeExceptionHandler.cs",
-              "ToolTip": "F:\\Educational platform\\Educational platform\\CustomeMiddelwares\\CustomeExceptionHandler.cs",
-              "RelativeToolTip": "CustomeMiddelwares\\CustomeExceptionHandler.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAuwCMAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T17:13:14.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TeacherController.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\TeacherController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\TeacherController.cs",
-              "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\TeacherController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\TeacherController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T17:01:00.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\BaseController.cs",
-              "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:56:18.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Educational platform\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Educational platform\\Educational platform\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAhwFQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:55:30.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentProfile.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Service\\Mapping\\StudentProfile.cs",
-              "RelativeDocumentMoniker": "..\\Service\\Mapping\\StudentProfile.cs",
-              "ToolTip": "F:\\Educational platform\\Service\\Mapping\\StudentProfile.cs",
-              "RelativeToolTip": "..\\Service\\Mapping\\StudentProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:54:54.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\StudentController.cs",
-              "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "..\\Presentation\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA4AAAAYAAAAAAAAAA==",
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Shared\\DTOs\\Course\\CourseDto.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\DTOs\\Course\\CourseDto.cs",
+              "ToolTip": "F:\\Educational platform\\Shared\\DTOs\\Course\\CourseDto.cs",
+              "RelativeToolTip": "..\\Shared\\DTOs\\Course\\CourseDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:51:36.538Z",
+              "WhenOpened": "2025-10-11T04:23:02.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServiceManger.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Service\\ServiceManger.cs",
-              "RelativeDocumentMoniker": "..\\Service\\ServiceManger.cs",
-              "ToolTip": "F:\\Educational platform\\Service\\ServiceManger.cs",
-              "RelativeToolTip": "..\\Service\\ServiceManger.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service Abstraction\\ICourseService.cs",
+              "RelativeDocumentMoniker": "..\\Service Abstraction\\ICourseService.cs",
+              "ToolTip": "F:\\Educational platform\\Service Abstraction\\ICourseService.cs",
+              "RelativeToolTip": "..\\Service Abstraction\\ICourseService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:49:29.517Z",
+              "WhenOpened": "2025-10-11T03:55:15.891Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IServiceManger.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Service Abstraction\\IServiceManger.cs",
-              "RelativeDocumentMoniker": "..\\Service Abstraction\\IServiceManger.cs",
-              "ToolTip": "F:\\Educational platform\\Service Abstraction\\IServiceManger.cs",
-              "RelativeToolTip": "..\\Service Abstraction\\IServiceManger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Educational platform\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Educational platform\\Educational platform\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDYAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:49:06.809Z",
+              "WhenOpened": "2025-10-11T03:47:43.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Service\\StudentService.cs",
-              "RelativeDocumentMoniker": "..\\Service\\StudentService.cs",
-              "ToolTip": "F:\\Educational platform\\Service\\StudentService.cs",
-              "RelativeToolTip": "..\\Service\\StudentService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\CourseController.cs",
+              "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "..\\Presentation\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAowBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:45:49.268Z",
+              "WhenOpened": "2025-10-11T03:37:03.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IStudentService.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Service Abstraction\\IStudentService.cs",
-              "RelativeDocumentMoniker": "..\\Service Abstraction\\IStudentService.cs",
-              "ToolTip": "F:\\Educational platform\\Service Abstraction\\IStudentService.cs",
-              "RelativeToolTip": "..\\Service Abstraction\\IStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service\\CourseService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\CourseService.cs",
+              "ToolTip": "F:\\Educational platform\\Service\\CourseService.cs",
+              "RelativeToolTip": "..\\Service\\CourseService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAADwvx8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:44:57.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StudentDto.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Shared\\UserData\\StudentDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\UserData\\StudentDto.cs",
-              "ToolTip": "F:\\Educational platform\\Shared\\UserData\\StudentDto.cs",
-              "RelativeToolTip": "..\\Shared\\UserData\\StudentDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T16:43:50.425Z",
+              "WhenOpened": "2025-10-11T03:34:37.099Z",
               "EditorCaption": ""
             }
           ]

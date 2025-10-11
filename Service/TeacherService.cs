@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Service.Specifications;
 using Service_Abstraction;
-using Shared.UserData;
+using Shared.DTOs.UserData;
 
 namespace Service
 {

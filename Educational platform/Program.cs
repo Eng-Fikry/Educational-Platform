@@ -52,6 +52,7 @@ namespace Educational_platform
             builder.Services.AddAutoMapper(x => x.AddProfile( new IdentityProfile()));
             builder.Services.AddAutoMapper(x => x.AddProfile( new TeacherProfile()));
             builder.Services.AddAutoMapper(x => x.AddProfile( new StudentProfile()));
+            builder.Services.AddAutoMapper(x => x.AddProfile( new CourseProfile()));
 
             builder.Services.AddIdentity<User, IdentityRole>(options =>
             {
@@ -120,7 +121,9 @@ namespace Educational_platform
             }
             app.UseMiddleware<CustomeExceptionHandler>();
             app.UseHttpsRedirection();
-
+            app.UseStaticFiles();
+            app.UseRouting();
+            app.UseAuthorization();
             app.UseAuthorization();
 
 

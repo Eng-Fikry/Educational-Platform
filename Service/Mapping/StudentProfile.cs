@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Domain.Models.Identity;
-using Shared.UserData;
+using Shared.DTOs.UserData;
 
 namespace Service.Mapping
 {

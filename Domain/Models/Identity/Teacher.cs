@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Domain.Models.Courses;
 
 namespace Domain.Models.Identity
 {
@@ -15,5 +16,6 @@ namespace Domain.Models.Identity
         public DateTime JoinedDate { get; set; }  = DateTime.Today;
         public string Role { get; set; } = default!;
         public string UserId { get; set; } = default!;
+        public ICollection<Course> Courses { get; set; }
     }
 }
