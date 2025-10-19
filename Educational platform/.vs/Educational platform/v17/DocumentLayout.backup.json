@@ -3,20 +3,37 @@
   "WorkspaceRootPath": "F:\\Educational platform\\Educational platform\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21AC06A7-8915-43BA-B855-DCAE60A28E7A}|..\\Service Abstraction\\Service Abstraction.csproj|f:\\educational platform\\service abstraction\\ilessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\lessonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92EBE9AD-93E1-4DE5-A422-ADC500764439}|..\\Domain\\Domain.csproj|f:\\educational platform\\domain\\models\\courses\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\mapping\\courseprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\mapping\\lessonprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B80E934-58B8-4640-A917-4D1B912EC8D8}|..\\Service\\Service.csproj|f:\\educational platform\\service\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{362AE1E0-0115-4FA6-A232-9E98E5484F3A}|..\\Presentation\\Presentation.csproj|f:\\educational platform\\presentation\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5BC0953-3504-43DF-A335-6CD986DC88DE}|..\\Shared\\Shared.csproj|f:\\educational platform\\shared\\dtos\\course\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|f:\\educational platform\\educational platform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EE90303-840E-4713-99FC-3CC0B2E9CBC2}|Educational platform.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{21AC06A7-8915-43BA-B855-DCAE60A28E7A}|..\\Service Abstraction\\Service Abstraction.csproj|f:\\educational platform\\service abstraction\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A50250F-B1FF-46D0-BAF0-C59F37F3D875}|..\\Presistance\\Presistance.csproj|f:\\educational platform\\presistance\\configrations\\courseconfigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A50250F-B1FF-46D0-BAF0-C59F37F3D875}|..\\Presistance\\Presistance.csproj|f:\\educational platform\\presistance\\configrations\\userconfigrations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,71 +43,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 11,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CourseDto.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Shared\\DTOs\\Course\\CourseDto.cs",
-              "RelativeDocumentMoniker": "..\\Shared\\DTOs\\Course\\CourseDto.cs",
-              "ToolTip": "F:\\Educational platform\\Shared\\DTOs\\Course\\CourseDto.cs",
-              "RelativeToolTip": "..\\Shared\\DTOs\\Course\\CourseDto.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAoAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Domain\\Models\\Courses\\Lesson.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Models\\Courses\\Lesson.cs",
+              "ToolTip": "F:\\Educational platform\\Domain\\Models\\Courses\\Lesson.cs",
+              "RelativeToolTip": "..\\Domain\\Models\\Courses\\Lesson.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T04:23:02.887Z",
+              "WhenOpened": "2025-10-19T22:32:08.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LessonProfile.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service\\Mapping\\LessonProfile.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Mapping\\LessonProfile.cs",
+              "ToolTip": "F:\\Educational platform\\Service\\Mapping\\LessonProfile.cs",
+              "RelativeToolTip": "..\\Service\\Mapping\\LessonProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:30:50.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "CourseProfile.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service\\Mapping\\CourseProfile.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Mapping\\CourseProfile.cs",
+              "ToolTip": "F:\\Educational platform\\Service\\Mapping\\CourseProfile.cs",
+              "RelativeToolTip": "..\\Service\\Mapping\\CourseProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T01:26:46.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ICourseService.cs",
               "DocumentMoniker": "F:\\Educational platform\\Service Abstraction\\ICourseService.cs",
               "RelativeDocumentMoniker": "..\\Service Abstraction\\ICourseService.cs",
               "ToolTip": "F:\\Educational platform\\Service Abstraction\\ICourseService.cs",
               "RelativeToolTip": "..\\Service Abstraction\\ICourseService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T03:55:15.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T01:09:42.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\Educational platform\\Educational platform\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\Educational platform\\Educational platform\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwDYAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T03:47:43.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CourseController.cs",
               "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\CourseController.cs",
               "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\CourseController.cs",
               "RelativeToolTip": "..\\Presentation\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowBsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T03:37:03.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T00:44:11.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "CourseService.cs",
               "DocumentMoniker": "F:\\Educational platform\\Service\\CourseService.cs",
               "RelativeDocumentMoniker": "..\\Service\\CourseService.cs",
               "ToolTip": "F:\\Educational platform\\Service\\CourseService.cs",
               "RelativeToolTip": "..\\Service\\CourseService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowFcAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-11T03:34:37.099Z",
+              "WhenOpened": "2025-10-13T15:45:53.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserConfigrations.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Presistance\\Configrations\\UserConfigrations.cs",
+              "RelativeDocumentMoniker": "..\\Presistance\\Configrations\\UserConfigrations.cs",
+              "ToolTip": "F:\\Educational platform\\Presistance\\Configrations\\UserConfigrations.cs",
+              "RelativeToolTip": "..\\Presistance\\Configrations\\UserConfigrations.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:35:44.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CourseConfigrations.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Presistance\\Configrations\\CourseConfigrations.cs",
+              "RelativeDocumentMoniker": "..\\Presistance\\Configrations\\CourseConfigrations.cs",
+              "ToolTip": "F:\\Educational platform\\Presistance\\Configrations\\CourseConfigrations.cs",
+              "RelativeToolTip": "..\\Presistance\\Configrations\\CourseConfigrations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:35:29.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LessonService.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service\\LessonService.cs",
+              "RelativeDocumentMoniker": "..\\Service\\LessonService.cs",
+              "ToolTip": "F:\\Educational platform\\Service\\LessonService.cs",
+              "RelativeToolTip": "..\\Service\\LessonService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:33:07.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILessonService.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Service Abstraction\\ILessonService.cs",
+              "RelativeDocumentMoniker": "..\\Service Abstraction\\ILessonService.cs",
+              "ToolTip": "F:\\Educational platform\\Service Abstraction\\ILessonService.cs",
+              "RelativeToolTip": "..\\Service Abstraction\\ILessonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:33:01.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "F:\\Educational platform\\Presentation\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "..\\Presentation\\Controllers\\LessonController.cs",
+              "ToolTip": "F:\\Educational platform\\Presentation\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "..\\Presentation\\Controllers\\LessonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T15:32:57.3Z",
               "EditorCaption": ""
             }
           ]

@@ -12,10 +12,10 @@ namespace Service_Abstraction
     {
         Task<CourseDto> CreateCourseAsync(CourseDto CourseDto);
         Task<IEnumerable<CourseDto>> GetAllCourseAsync();
-        Task<IEnumerable<CourseDto>> GetAllCourseAsync(int TeacherId);
+        Task<IEnumerable<CourseDto>> GetTeacherCoursesAsync(int TeacherId);
         Task<CourseDto> GetCourseInformationsAsync(Guid CourseId);
-        Task<Message> DeleteCourse(Guid CourseId);
-        Task<CourseDto> UpdateCourse(Guid CourseId,CourseDto CourseDto);
+        Task<Message> DeleteCourse(Guid CourseId, string Email);
+        Task<CourseDto> UpdateCourse(Guid CourseId,CourseDto CourseDto, string Email);
 
     }
 }

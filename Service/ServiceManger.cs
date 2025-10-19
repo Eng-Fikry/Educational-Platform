@@ -24,7 +24,10 @@ namespace Service
         private readonly Lazy<IStudentService> student = new Lazy<IStudentService>(() => new StudentService(unitOfWork, mapper));
         public IStudentService StudentService => student.Value;
 
-        private readonly Lazy<ICourseService> course = new Lazy<ICourseService>(() => new CourseService(unitOfWork, mapper));
+        private readonly Lazy<ICourseService> course = new Lazy<ICourseService>(() => new CourseService(unitOfWork, mapper,userManager));
         public ICourseService CourseService => course.Value;
+
+        private readonly Lazy<ILessonService> lesson = new Lazy<ILessonService>(() => new LessonService(unitOfWork, mapper,userManager));
+        public ILessonService LessonService => lesson.Value;
     }
 }

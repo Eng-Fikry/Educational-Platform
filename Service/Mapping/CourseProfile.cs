@@ -14,6 +14,7 @@ namespace Service.Mapping
         public CourseProfile()
         {
             CreateMap<CourseDto,Course>().ReverseMap();
+            CreateMap<Course, CourseDto>().ForMember(dist => dist.Thumbnail, options => options.MapFrom<CoursePictureResolver>()).ReverseMap();
         }
     }
 }

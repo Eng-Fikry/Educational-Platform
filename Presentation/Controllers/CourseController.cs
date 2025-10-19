@@ -25,7 +25,7 @@ namespace Presentation.Controllers
 
         public async Task<ActionResult<Message>> DeleteCourse(Guid CourseId)
         {
-            var Course= await _serviceManger.CourseService.DeleteCourse(CourseId);
+            var Course= await _serviceManger.CourseService.DeleteCourse(CourseId,GetEmail());
             return Ok(Course);
             
         }
@@ -43,12 +43,21 @@ namespace Presentation.Controllers
             var Course = await _serviceManger.CourseService.GetCourseInformationsAsync(CourseId);
             return Ok(Course);
         }
-        [HttpPut("{CourseId:guid}")]
+        [HttpGet("{TeacherId:int}")]
         [Authorize]
-        public async Task<ActionResult<CourseDto>> UpdateCourse(Guid CourseId,CourseDto courseDto)
+        public async Task<ActionResult<IEnumerable<CourseDto>>> GetTeacherCourses(int TeacherId)
         {
-            var Course = await _serviceManger.CourseService.UpdateCourse(CourseId,courseDto);
+            var Course = await _serviceManger.CourseService.GetTeacherCoursesAsync(TeacherId);
             return Ok(Course);
         }
+        [HttpPut("{CourseId:guid}")]
+        [Authorize(Roles ="Teacher")]
+        public async Task<ActionResult<CourseDto>> UpdateCourse(Guid CourseId,CourseDto courseDto)
+        {
+
+            var Course = await _serviceManger.CourseService.UpdateCourse(CourseId,courseDto,GetEmail());
+            return Ok(Course);
+        }
+
     }
 }

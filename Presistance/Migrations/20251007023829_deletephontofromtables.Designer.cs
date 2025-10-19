@@ -13,7 +13,7 @@ namespace Presistance.Migrations
 {
     [DbContext(typeof(PlatformDbContext))]
     [Migration("20251007023829_deletephontofromtables")]
-    partial class deletephontofromtables
+    partial class Deletephontofromtables
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

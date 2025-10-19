@@ -32,6 +32,16 @@ namespace Presistance.Reposatories
 
         }
 
+        public async Task<IEnumerable<TEntity>> GetAllAsync(ISpecification<TEntity, TKey> specification)
+        {
+            var Query = _dbContext.Set<TEntity>();
+            return await SpecificationEvaluator.CreateQuery(Query, specification).ToListAsync();
+        }
+
+        public async Task AddRangeAsync(IEnumerable<TEntity> entity)
+        {
+           await _dbContext.Set<TEntity>().AddRangeAsync(entity);
+        }
     }
 }
 

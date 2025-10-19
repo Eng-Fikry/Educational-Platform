@@ -5,7 +5,7 @@
 namespace Presistance.Migrations
 {
     /// <inheritdoc />
-    public partial class deletephontofromtables : Migration
+    public partial class Deletephontofromtables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -5,14 +5,18 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using Domain.Contracts;
+using Domain.Exceptions;
 using Domain.Models.Courses;
+using Domain.Models.Identity;
+using Microsoft.AspNetCore.Identity;
+using Service.Specifications;
 using Service_Abstraction;
 using Shared;
 using Shared.DTOs.Course;
 
 namespace Service
 {
-    public class CourseService(IUnitOfWork _unitOfWork , IMapper _mapper) : ICourseService
+    public class CourseService(IUnitOfWork _unitOfWork , IMapper _mapper,UserManager<User> _userManager) : ICourseService
     {
         public async Task<CourseDto> CreateCourseAsync(CourseDto CourseDto)
         {
@@ -23,13 +27,20 @@ namespace Service
             return CourseDto;
         }
 
-        public async Task<Message> DeleteCourse(Guid CourseId) 
+        public async Task<Message> DeleteCourse(Guid CourseId,string Email) 
         {
-            var Course = await _unitOfWork.GetRepository<Course, Guid>().GetByIdAsync(CourseId);
-            _unitOfWork.GetRepository<Course, Guid>().Remove(_mapper.Map<Course>(Course));
-            await _unitOfWork.SaveAsync();
-            return new Message() { message = "Course Deleted Successfuly" };
-        } 
+            Teacher Teacher=await CheckIfTeacherIsOwner(Email);
+            var Course = await _unitOfWork.GetRepository<Course, Guid>().GetByIdAsync(CourseId) ?? throw new CoursesOrLessonNotFoundException("This Course is Not Found");
+            if (Course.TeacherId == Teacher.Id)
+            {
+                _unitOfWork.GetRepository<Course, Guid>().Remove(Course);
+                await _unitOfWork.SaveAsync();
+                return new Message() { message = "Course Deleted Successfuly" };
+            }
+            throw new BadRequestException("You Are Not Authorized to make this change");
+
+
+        }
         //Remove(_mapper.Map<Course>(CourseDto));
 
         public async Task<IEnumerable<CourseDto>> GetAllCourseAsync()
@@ -39,11 +50,16 @@ namespace Service
            return CoursesDto;
         }
 
-        public async Task<IEnumerable<CourseDto>> GetAllCourseAsync(int TeacherId)
+        public async Task<IEnumerable<CourseDto>> GetTeacherCoursesAsync(int TeacherId)
         {
-            var Courses = await _unitOfWork.GetRepository<Course, Guid>().GetAllAsync();
-            var TeacherCourses = Courses.Where(T => T.TeacherId == TeacherId);
-            var TeacherCoursesDto = _mapper.Map<IEnumerable<CourseDto>>(TeacherCourses);
+            var Teacher= await _unitOfWork.GetRepository<Teacher,int>().GetByIdAsync(TeacherId) ?? throw new TeacherNotFoundException(TeacherId);
+
+            var TeacherSpecification = new GetTeacherCoursesSpecification(TeacherId);
+            var Courses = await _unitOfWork.GetRepository<Course, Guid>().GetAllAsync(TeacherSpecification); 
+            if (Courses.Count()==0)
+                throw new CoursesOrLessonNotFoundException($"There is no Courses");
+
+            var TeacherCoursesDto = _mapper.Map<IEnumerable<CourseDto>>(Courses);
             return TeacherCoursesDto;
         }
 
@@ -51,23 +67,35 @@ namespace Service
 
         public async Task<CourseDto> GetCourseInformationsAsync(Guid CourseId)
         {
-            var Course = await _unitOfWork.GetRepository<Course, Guid>().GetByIdAsync(CourseId);
+            var Course = await _unitOfWork.GetRepository<Course, Guid>().GetByIdAsync(CourseId) ?? throw new CoursesOrLessonNotFoundException($"There is no Course"); ;
             var CourseDto = _mapper.Map<CourseDto>(Course);
             return CourseDto;
 
         }
 
-        public async Task<CourseDto> UpdateCourse(Guid CourseId, CourseDto CourseDto)
+        public async Task<CourseDto> UpdateCourse(Guid CourseId, CourseDto CourseDto,string Email)
         {
-            var course = _mapper.Map<Course>(CourseDto);
-            course.Id = CourseId;
-            course.Updated= DateTime.UtcNow.Date;
-            _unitOfWork.GetRepository<Course, Guid>().Update(course);
-            await _unitOfWork.SaveAsync();
-            return _mapper.Map<CourseDto>(course);
+            Teacher Teacher = await CheckIfTeacherIsOwner(Email);
+            if (Teacher.Id == CourseDto.TeacherId)
+            {
+                var course = _mapper.Map<Course>(CourseDto);
+                course.Id = CourseId;
+                course.Updated = DateTime.UtcNow.Date;
+                _unitOfWork.GetRepository<Course, Guid>().Update(course);
+                await _unitOfWork.SaveAsync();
+                return _mapper.Map<CourseDto>(course);
+            }
+            throw new BadRequestException("You Are Not Authorized to make this change");
+
 
         }
 
-
+        private async Task<Teacher> CheckIfTeacherIsOwner(string Email)
+        {
+            var user = await _userManager.FindByEmailAsync(Email) ?? throw new EmailOrUserNotFoundException("User Not Found");
+            var userspecification = new GetTeacherMainDataSpecification(user.Id);
+            var Teacher = await _unitOfWork.GetRepository<Teacher, int>().GetByIdAsync(userspecification) ?? throw new EmailOrUserNotFoundException("User Not Found");
+            return Teacher;
+        }
     }
 }

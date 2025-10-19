@@ -12,6 +12,8 @@ namespace Service_Abstraction
         public ITeacherService TeacherService { get; }
         public IStudentService StudentService { get; }
         public ICourseService CourseService { get; }
+        public ILessonService LessonService { get; }
+
 
     }
 }
