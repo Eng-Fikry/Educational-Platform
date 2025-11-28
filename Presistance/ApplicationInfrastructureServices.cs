@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Presistance.DataSeeding;
 using Presistance.Identity;
 using Presistance.Reposatories;
+using StackExchange.Redis;
 
 namespace Presistance
 {
@@ -25,9 +26,14 @@ namespace Presistance
             {
                 options.UseSqlServer(_configuration.GetConnectionString("IdentityConnection"));
             });
+            Services.AddSingleton<IConnectionMultiplexer>((_) =>
+            {
+                return ConnectionMultiplexer.Connect(_configuration["ConnectionStrings:RedisConnection"]!);
+            });
 
             Services.AddScoped<IUnitOfWork, UnitOfWork>();
             Services.AddScoped<IDataSeed, DataSeed>();
+            Services.AddScoped<IBasketRepository, BasketRepository>();
             return Services;
         }
     }

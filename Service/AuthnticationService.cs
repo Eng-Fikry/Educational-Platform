@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Service_Abstraction;
+using Shared.DTOs.Basket;
 using Shared.DTOs.Identity;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -143,6 +144,7 @@ namespace Service
                         UserName=user.UserName!,
                         JoinedDate=DateTime.Now,
                         
+                        
 
                     };
                     await UserAccount.AddAsync(Teacher);
@@ -150,6 +152,7 @@ namespace Service
                 case "Student":
                     await _userManager.AddToRoleAsync(user, "Student");
                     UserAccount = _unitOfWork.GetRepository<Student, int>();
+                    var BasketId= Guid.NewGuid().ToString();
                     var Student = new Student()
                     {
                         Email = user.Email!,
@@ -158,6 +161,7 @@ namespace Service
                         PhoneNumber = user.PhoneNumber!,
                         UserName = user.UserName!,
                         JoinedDate = DateTime.Now,
+                        BasketId= BasketId
 
 
                     };

@@ -193,3 +193,5 @@ F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.Extensio
 F:\Educational platform\Educational platform\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 F:\Educational platform\Educational platform\obj\Debug\net8.0\Educational platform.sourcelink.json
 F:\Educational platform\Educational platform\bin\Debug\net8.0\Educational platform.staticwebassets.runtime.json
+F:\Educational platform\Educational platform\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+F:\Educational platform\Educational platform\bin\Debug\net8.0\StackExchange.Redis.dll

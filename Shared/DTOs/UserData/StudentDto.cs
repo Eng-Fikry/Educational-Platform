@@ -15,5 +15,6 @@ namespace Shared.DTOs.UserData
         //public string DisplayName { get; set; } = default!;
         public DateTime JoinedDate { get; set; }
         public string Role { get; set; } = default!;
+        public string BasketId { get; set; } = default!;
     }
 }

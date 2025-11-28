@@ -15,5 +15,6 @@ namespace Domain.Models.Identity
         public DateTime JoinedDate { get; set; } = DateTime.Today;
         public string Role { get; set; } = default!;
         public string UserId { get; set; } = default!;
+        public string BasketId { get; set; } = default!;
     }
 }
